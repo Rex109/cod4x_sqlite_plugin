@@ -21,7 +21,7 @@ PCL void OnInfoRequest(pluginInfo_t *info)
 
     info->pluginVersion.major = 1;
     info->pluginVersion.minor = 0;
-    strncpy(info->fullName,"An example C++ plugin.",sizeof(info->fullName));
-    strncpy(info->shortDescription,"This is the plugin's short description.",sizeof(info->shortDescription));
-    strncpy(info->longDescription,"This is the plugin's long description.",sizeof(info->longDescription));
+    strncpy(info->fullName,"SQLite Plugin",sizeof(info->fullName));
+    strncpy(info->shortDescription,"CoD4X SQLite3 support for GSC",sizeof(info->shortDescription));
+    strncpy(info->longDescription,"CoD4X SQLite3 support for GSC",sizeof(info->longDescription));
 }

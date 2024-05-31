@@ -8,7 +8,7 @@ CoD4X SQLite3 support for GSC
 
 ## `handle = sqlite3_open(<filename>);`
 
-Connects to a sqlite3 database, returns the handle;
+Connects to a sqlite3 database, returns the handle.
 
 ## `sqlite3_close(<handle>);`
 
