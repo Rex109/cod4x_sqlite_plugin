@@ -5,3 +5,23 @@
 CoD4X SQLite3 support for GSC
 
 # Added functions
+
+## `handle = sqlite3_open(<filename>);`
+
+Connects to a sqlite3 database, returns the handle;
+
+## `sqlite3_close(<handle>);`
+
+Closes the connection to the sqlite3 database specified by the handle.
+
+## `sqlite3_exec(<handle>, <query>);`
+
+Executes a query on the sqlite3 database specified by the handle.
+
+## `array = sqlite3_fetch_assoc(<handle>);`
+
+Fetches the associative array of the result of the last query.
+
+## `count = sqlite3_num_rows(<handle>);`
+
+Returns the number of rows in the result of the last query.
