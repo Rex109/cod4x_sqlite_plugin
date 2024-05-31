@@ -83,7 +83,7 @@ void Scr_Sqlite3_Exec_f()
 
     if (rc != SQLITE_OK)
     {
-        pluginError("Failed to execute SQL statement: %s", dbConnections[handle]->errorMessage);
+        pluginError("Failed to execute SQL statement: %s", dbConnections[handle]->errorMessage.c_str());
         return;
     }
 }
