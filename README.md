@@ -21,6 +21,7 @@ Executes a query on the sqlite3 database specified by the handle.
 ## `array = sqlite3_fetch_assoc(<handle>);`
 
 Fetches the associative array of the result of the last query.
+Keys are the column names and can be retrieved by `getArrayKeys(array);`.
 
 ## `count = sqlite3_num_rows(<handle>);`
 
