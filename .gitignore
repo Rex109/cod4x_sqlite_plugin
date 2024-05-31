@@ -1,0 +1,5 @@
+/bin/*
+!/bin/dummy
+
+/obj/*
+!/obj/dummy
